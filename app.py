@@ -15,7 +15,7 @@ with st.sidebar:
                             help="注册 https://platform.deepseek.com/ 获取")
     st.markdown("---")
     st.markdown("### 📋 支持的缺陷类型")
-    for defect in ["裂纹", "夹杂物", "斑点", "麻面", "扎入氧化皮"]:
+    for defect in [ "夹杂物", "斑点", "麻面", "扎入氧化皮"]:
         st.markdown(f"- 🔴 {defect}")
     st.markdown("---")
     st.markdown("### 📌 使用说明")
